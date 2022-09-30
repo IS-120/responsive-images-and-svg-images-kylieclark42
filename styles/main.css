@@ -9,6 +9,11 @@ img {
   display: block;
 }
 
+/* temp overrride until the max-width on img is removed */
+picture img {
+  max-width: none;
+}
+
 svg {
   width: 200px;
 }
